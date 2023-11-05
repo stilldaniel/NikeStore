@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Nike Store</title>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fa fa-bars"></div>
+        <a href="#" class="logo">NIKE</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#featured">Featured</a>
+            <a href="#review">Review</a>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa fa-heart"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a href="#"><i class="fa fa-user"></i></a>
+        </div>
+    </header>
+    <!-- end of header -->
+    <section class="home" id="home">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sport Shoes</span>
+                    <h3>Nike Jordan Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatem, quaerat voluptas reprehenderit ullam porro tenetur dolorum aspernatur accusantium, asperiores repellat iure sequi facilis laudantium dolor maiores nisi corporis. Fugiat?</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+                <div class="image">
+                    <img src="img/j1 mid.webp" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sport Shoes</span>
+                    <h3>Nike Jordan Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatem, quaerat voluptas reprehenderit ullam porro tenetur dolorum aspernatur accusantium, asperiores repellat iure sequi facilis laudantium dolor maiores nisi corporis. Fugiat?</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+                <div class="image">
+                    <img src="img/j1 'washed black'.webp" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sport Shoes</span>
+                    <h3>Nike Jordan Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatem, quaerat voluptas reprehenderit ullam porro tenetur dolorum aspernatur accusantium, asperiores repellat iure sequi facilis laudantium dolor maiores nisi corporis. Fugiat?</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+                <div class="image">
+                    <img src="img/j1 og chicago staat.webp" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Sport Shoes</span>
+                    <h3>Nike Jordan Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatem, quaerat voluptas reprehenderit ullam porro tenetur dolorum aspernatur accusantium, asperiores repellat iure sequi facilis laudantium dolor maiores nisi corporis. Fugiat?</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+                <div class="image">
+                    <img src="img/j1 'purple aqua'.webp" class="shoe">
+                </div>
+            </div>
+        </div>
+        <div id="prev" class="fa fa-chevron-left" onclick="prev();"></div>
+        <div id="next" class="fa fa-chevron-right" onclick="next();"></div>
+    </section>
+    <!-- end of home -->
+    <section class="product" id="product">
+        <h1 class="heading">latest <span>Products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="content">
+                    <img src="img/j4 retro SE.webp" alt="">
+                    <h3>Air Jordan 4 Retro SE 'What The 4'</h3>
+                    <div class="price">$1,200 <span>$1,500</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="content">
+                    <img src="img/j4 retro flight.png" alt="">
+                    <h3>Air Jordan 4 Retro 'Flight'</h3>
+                    <div class="price">$1,100 <span>$1,300</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="content">
+                    <img src="img/j4 silver.webp" alt="">
+                    <h3>Air Jordan 4 Retro 'Frozen Moments'</h3>
+                    <div class="price">$1,850 <span>$2,000</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="content">
+                    <img src="img/j4 solestage.webp" alt="">
+                    <h3>Air Jordan 4 Retro 'Solestage'</h3>
+                    <div class="price">$850 <span>$900</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="content">
+                    <img src="img/j4 retro motorsports.webp" alt="">
+                    <h3>Air Jordan 4 Retro 'MotorSports'</h3>
+                    <div class="price">$1,300 <span>$1,450</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#" class="fa fa-share"></a>
+                    <a href="#" class="fa fa-eye"></a>
+                </div>
+                <div class="content">
+                    <img src="img/j4 retro se craft.webp" alt="">
+                    <h3>Air Jordan 4 Retro SE 'craft'</h3>
+                    <div class="price">$1,000 <span>$1,150</span></div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of product -->
+    <section class="featured" id="featured">
+        <h1 class="heading">New <span>Products</span></h1>
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/1.jpg" alt="" class="featured-image-1">
+                    <img src="img/3.jpg" alt="" class="featured-image-1">
+                    <img src="img/4.jpg" alt="" class="featured-image-1">
+                    <img src="img/2.jpg" alt="" class="featured-image-1">
+                </div>
+                <div class="big-image">
+                    <img src="img/1.jpg" alt="" class="big-image-1">
+                </div>
+            </div>
+            <div class="content">
+                <h3>nike blazer mid '77 suede</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit Officiis omnis quo laboriosam velit culpa ex illo, error enim nostrum?
+                </p>
+                <div class="price">$2750 <span>$3000</span></div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/1 (1).jpg" alt="" class="featured-image-2">
+                    <img src="img/2 (1).jpg" alt="" class="featured-image-2">
+                    <img src="img/3 (1).jpg" alt="" class="featured-image-2">
+                    <img src="img/4 (1).jpg" alt="" class="featured-image-2">
+                </div>
+                <div class="big-image">
+                    <img src="img/1 (1).jpg" alt="" class="big-image-2">
+                </div>
+            </div>
+            <div class="content">
+                <h3>nike sb zoom blazer mid '77</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit Officiis omnis quo laboriosam velit culpa ex illo, error enim nostrum?
+                </p>
+                <div class="price">$2500 <span>$2800</span></div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/1 (2).jpg" alt="" class="featured-image-3">
+                    <img src="img/2 (2).jpg" alt="" class="featured-image-3">
+                    <img src="img/3 (2).jpg" alt="" class="featured-image-3">
+                    <img src="img/4 (2).jpg" alt="" class="featured-image-3">
+                </div>
+                <div class="big-image">
+                    <img src="img/1 (2).jpg" alt="" class="big-image-3">
+                </div>
+            </div>
+            <div class="content">
+                <h3>nike blazer mid '77 vintage</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit Officiis omnis quo laboriosam velit culpa ex illo, error enim nostrum?
+                </p>
+                <div class="price">$2000 <span>$2200</span></div>
+                <a href="#" class="btn">Add To Cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- end of featured -->
+    <section class="blog" id="review">
+        <h1 class="heading">Team <span>Weblog</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/sport lady.webp">
+                <h3>Sandra Rose</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sequi temporibus impedit corporis vero ab exercitationem dolore voluptatibus, nisi non.
+                </p>
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/sport lady 2.png">
+                <h3>Rachael Zane</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sequi temporibus impedit corporis vero ab exercitationem dolore voluptatibus, nisi non.
+                </p>
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/sport lady 4.png">
+                <h3>Mary Jane</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sequi temporibus impedit corporis vero ab exercitationem dolore voluptatibus, nisi non.
+                </p>
+                <div class="icons">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Blog -->
+    <section class="news" id="news">
+        <div class="content">
+            <h3>Monthly News Letter</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde obcaecati rerum commodi dolorem asperiores debitis ratione nihil architecto, repellendus ipsa ipsum quaerat! Ducimus distinctio atque odit, alias numquam minus magni!
+            </p>
+            <form action="">
+                <input type="email" placeholder="Please Enter Your Email" class="email">
+                <input type="submit" value="save" class="btn">
+            </form>
+        </div>
+    </section>
+    <!-- end of news -->
+    <section class="cridet" id="cridet">
+        <div class="box">
+            <h3>all designed by daniel</h3>
+        </div>
+    </section>
+</body>
+</html>
+<!-- end of html -->
+<script src="script.js"></script>
