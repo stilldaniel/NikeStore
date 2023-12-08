@@ -404,8 +404,7 @@ section {
         top: 100%;
         left: -120%;
         width: 100%;
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(15px);
+        background: #fff;
     }
     header .navbar a {
         font-size: 2rem;
